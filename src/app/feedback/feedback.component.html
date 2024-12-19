@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9">
+
+            <h1 class="text-center">Valuable Feedback</h1>
+            <div class="container">
+                <form (ngSubmit)="submitdata">
+                    
+                       
+                  <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" [(ngModel)]="fd.message"
+                     placeholder="Enter Message Here"></textarea>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+              
+        </div>
+    </div>
+</div>
+
+
